@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "vis-2-trashschedule",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "news": {
+      "1.1.0": {
+        "en": "Initial release",
+        "de": "Erstausstrahlung",
+        "ru": "Первоначальный релиз",
+        "pt": "Lançamento inicial",
+        "nl": "Eerste vrijgave",
+        "fr": "Libération initiale",
+        "it": "Rilascio iniziale",
+        "es": "Liberación inicial",
+        "pl": "Początkowe wydanie",
+        "uk": "Початковий реліз",
+        "zh-cn": "初步释放"
+      },
       "1.0.0": {
         "en": "Initial release",
         "de": "Erstausstrahlung",

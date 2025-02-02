@@ -17,7 +17,7 @@ The Trashschedule adapter is required for use.
     ### **WORK IN PROGRESS**
 -->
 ## Changelog
-### **WORK IN PROGRESS**
+### 1.1.0 (2025-02-02)
 - Initial release
 
 ## License
