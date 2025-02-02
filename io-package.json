@@ -1,0 +1,90 @@
+{
+  "common": {
+    "name": "vis-2-trashschedule",
+    "version": "1.0.0",
+    "news": {
+      "1.0.0": {
+        "en": "Initial release",
+        "de": "Erstausstrahlung",
+        "ru": "Первоначальный релиз",
+        "pt": "Lançamento inicial",
+        "nl": "Eerste vrijgave",
+        "fr": "Libération initiale",
+        "it": "Rilascio iniziale",
+        "es": "Liberación inicial",
+        "pl": "Początkowe wydanie",
+        "uk": "Початковий реліз",
+        "zh-cn": "初步释放"
+      }
+    },
+    "titleLang": {
+      "en": "Vis-2 Trashschedule",
+      "de": "Vis-2 Trashschule",
+      "ru": "Vis-2 Трещина",
+      "pt": "Conjunto de faixas Vis-2",
+      "nl": "Vis-2 Prullenbak",
+      "fr": "Vis-2 Tableau de la corbeille",
+      "it": "Vis-2 Trashchedule",
+      "es": "Vis-2 Trashschedule",
+      "pl": "Vis-2 Trashharmonogram",
+      "uk": "Вис-2 Трашплантул",
+      "zh-cn": "Vis-2 废旧时间表"
+    },
+    "desc": {
+      "en": "Vis-2 Widget for Trashschedule",
+      "de": "Vis-2 Widget für Trashschedule",
+      "ru": "Виджет Vis-2 для Trashtable",
+      "pt": "Vis-2 Widget para caixa de lixo",
+      "nl": "Vis-2 widget voor prullenbak",
+      "fr": "Widget Vis-2 pour planchedule",
+      "it": "Vis-2 Widget per cestino",
+      "es": "Vis-2 Widget para Trashschedule",
+      "pl": "Vis-2 Widget dla Trashscheld",
+      "uk": "Vis-2 Віджети для Trashschedule",
+      "zh-cn": "Vis-2 废旧时间表部件"
+    },
+    "authors": [
+      "csicom <csicom@csicomnet.de>"
+    ],
+    "keywords": [
+      "ioBroker, Trashschedule"
+    ],
+    "platform": "Javascript/Node.js",
+    "icon": "vis-2-trashschedule.png",
+    "extIcon": "https://raw.githubusercontent.com/csicom/ioBroker.vis-2-trashschedule/master/admin/vis-2-trashschedule.png",
+    "enabled": true,
+    "readme": "https://github.com/csicom/ioBroker.vis-2-trashschedule/blob/master/README.md",
+    "loglevel": "info",
+    "mode": "none",
+    "singleton": true,
+    "adminUI": {
+      "config": "none"
+    },
+    "nogit": true,
+    "onlyWWW": true,
+    "type": "visualization-widgets",
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
+    "visWidgets": {
+      "vis2trashschedule": {
+        "i18n": "component",
+        "name": "vis2trashschedule",
+        "url": "vis-2-trashschedule/customWidgets.js",
+        "components": [
+          "TrashSchedule"
+        ]
+      }
+    },
+    "restartAdapters": [
+      "vis-2"
+    ],
+    "tier": 3
+  },
+  "native": {},
+  "objects": [],
+  "instanceObjects": []
+}

@@ -1,0 +1,47 @@
+{
+    "name": "vis-2-trashschedule",
+    "private": true,
+    "version": "1.0.0",
+    "devDependencies": {
+        "@iobroker/adapter-dev": "^1.3.0"
+    },
+    "dependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+        "@craco/craco": "^7.1.0",
+        "@iobroker/adapter-react-v5": "^7.4.19",
+        "@iobroker/vis-2-widgets-react-dev": "^4.0.4",
+        "@mui/icons-material": "^6.4.2",
+        "@mui/material": "^6.4.2",
+        "color": "^4.2.3",
+        "craco-esbuild": "^0.6.1",
+        "craco-module-federation": "^1.1.0",
+        "moment": "^2.30.1",
+        "node-sass": "^9.0.0",
+        "prop-types": "^15.8.1",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-icons": "^5.4.0",
+        "react-scripts": "^5.0.1",
+        "sass": "^1.83.4"
+    },
+    "scripts": {
+        "start": "set PORT=4173 && craco start",
+        "lint": "eslint -c eslint.config.mjs src",
+        "lint:fix": "eslint --fix eslint.config.mjs src",
+        "build": "craco build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "i18n": "node node_modules/@iobroker/vis-2-widgets-react-dev/searchI18n vis_2_widgets_trashschedule",
+        "translate": "translate-adapter -a ../src-widgets -p ../io-package.json"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "homepage": ".",
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not ie <= 11",
+        "not op_mini all"
+    ]
+}
