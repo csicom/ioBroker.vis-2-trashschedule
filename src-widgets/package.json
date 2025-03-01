@@ -12,7 +12,7 @@
         "@iobroker/vis-2-widgets-react-dev": "^4.0.4",
         "@mui/icons-material": "^6.4.2",
         "@mui/material": "^6.4.2",
-        "color": "^4.2.3",
+        "color": "^5.0.0",
         "craco-esbuild": "^0.6.1",
         "craco-module-federation": "^1.1.0",
         "moment": "^2.30.1",
